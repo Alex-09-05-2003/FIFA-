@@ -1,0 +1,91 @@
+/* Reset general */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Stilizare pentru body */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Stilizare pentru header */
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+/* Stilizare pentru navigație */
+nav {
+  text-align: center;
+  background-color: #333;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.1rem;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+/* Stilizare pentru secțiuni */
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+/* Stilizare pentru containerele de imagini */
+.image-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Stilizare pentru footer */
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+}
